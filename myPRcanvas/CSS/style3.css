@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.infoname{
+    display: flex;
+    flex-direction: row;
+}
+.infoname>p{
+    margin: 19px;
+}
+.studentname{
+    border:  solid 1px black;
+    width: 300px;
+    height: 30px;
+    margin-left: 16px;
+}
+.markscontainer{
+    border:  solid 1px black;
+    height: 30px;
+    display: flex;
+    flex-wrap:nowrap;
+}
+.containerStudentInfo{
+    display: flex;
+}
+
+.block{
+    width: 45px;
+    height: 29px;
+    border:  solid 1px black;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+::-webkit-scrollbar {
+    width: 0;
+  }
